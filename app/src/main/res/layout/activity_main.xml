@@ -15,4 +15,24 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/mainGoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <EditText
+        android:id="@+id/mainName"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Rename myself"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="161dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
